@@ -284,7 +284,7 @@ Think of your pitch as if you are trying to get a startup funded, convincing you
 
 ## **Monday 11/20** - Milestone 1
 
-Your first presentation should be **5 minutes**.  Present your work-in-progress.  Your presentation should include a few slides, plus videos, screenshots, or demos if possible.  Be sure to
+Your first presentation should be **4 minutes**.  Present your work-in-progress.  Your presentation should include a few slides, plus videos, screenshots, or demos if possible.  Be sure to
 * Demonstrate working code (videos and screenshots are OK; it doesn’t have to be live).
 * Provide a roadmap with future weekly milestones up to and including the final presentation on **Monday, December 11**.
 
@@ -304,7 +304,7 @@ Same format as Milestone 2.
 
 ## **Monday 12/11** - Final Presentation
 
-5-minute final presentation.
+4-minute final presentation.
 
 This should be a polished presentation with a 1-2 slide **overview** of the technical approach at a high-level of abstraction, followed by a **demo/video of the results** in different representative scenarios, followed by a careful **performance analysis**, and finally **shortcomings** of the approach.
 
@@ -312,7 +312,7 @@ It is OK to present this as a few slides with a demo/video for the results secti
 
 Please practice for timing; do not exceed five minutes.
 
-By 6pm:
+By 5pm:
 * Push the following to GitHub
    * Final presentation slides/video
    * Final code - should be clean, documented, and tested

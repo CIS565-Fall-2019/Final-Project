@@ -1,10 +1,10 @@
 # Final Project
 
-[CIS 565](https://cis565-fall-2017.github.io/): GPU Programming and Architecture
+[CIS 565](https://cis565-fall-2018.github.io/): GPU Programming and Architecture
 
 University of Pennsylvania
 
-Fall 2017
+Fall 2018
 
 The final project gives you an opportunity to embark on a large GPU programming endeavor of your choice.  You are free to select an area in graphics, GPU computing, or both.
 
@@ -220,12 +220,15 @@ Likewise, please do not propose extend-my-CUDA-path-tracer-with-these-n-effects 
 
 ## Previous Semesters
 
-For inspiration, browse the CIS 565 final projects from previous semesters: [Fall 2016](https://cis565-fall-2016.github.io/studentwork.html), [Fall 2015](http://cis565-fall-2015.github.io/studentwork.html), [Fall 2014](http://cis565-fall-2014.github.io/studentwork.html), [Fall 2013](http://cis565-fall-2013.github.io/studentwork.html), [Fall 2012](http://cis565-fall-2012.github.io/studentwork.html), [Spring 2012](http://cis565-spring-2012.github.com/studentwork.html), and [Spring 2011](http://www.seas.upenn.edu/~cis565/StudentWork-2011S.htm).
+For inspiration, browse the CIS 565 final projects from previous semesters: [Fall 2017](https://cis565-fall-2017.github.io/studentwork.html), [Fall 2016](https://cis565-fall-2016.github.io/studentwork.html), [Fall 2015](http://cis565-fall-2015.github.io/studentwork.html), [Fall 2014](http://cis565-fall-2014.github.io/studentwork.html), [Fall 2013](http://cis565-fall-2013.github.io/studentwork.html), [Fall 2012](http://cis565-fall-2012.github.io/studentwork.html), [Spring 2012](http://cis565-spring-2012.github.com/studentwork.html), and [Spring 2011](http://www.seas.upenn.edu/~cis565/StudentWork-2011S.htm).
 
 A guideline is that your project should be better than last semester's projects; that is how we move the field forward.
 
 ### Selected Projects
-
+* **Fall 2017**
+   * [Pollux: Metal Pathtracer](https://github.com/WilliamKHo/Pollux-Renderer) by Youssef Victor and Will Ho
+   * [Organic Mesh Growth with SDFs](https://github.com/mmerchante/organic-mesh-growth) by Mariano Merchante and Mohamad Moneimne
+   * [BabylonJS Post-Processing and Weather System](https://github.com/HanmingZhang/Babylon.js) by Hanming Zhang and Linshen Xiao
 * **Fall 2016**
    * [Vulkan PBR Renderer](https://github.com/jian-ru/laugh_engine) by Jian Ru
    * [Vulkan Forward+ Renderer](https://github.com/WindyDarian/Vulkan-Forward-Plus-Renderer) by Ruoyu Fan and Xueyin Wan
@@ -267,7 +270,7 @@ Browse these for ideas galore!
 
 # Timeline
 
-## **Monday 11/13** - Project Pitch
+## **Monday 11/12** - Project Pitch
 
 Sign up for a time slot ASAP.
 
@@ -282,7 +285,7 @@ Think of your pitch as if you are trying to get a startup funded, convincing you
 * Push your pitch to a new GitHub repo for your project
 * Email the repo link to  cis-565-fall-2017@googlegroups.com (if the project is open source)
 
-## **Monday 11/20** - Milestone 1
+## **Monday 11/19** - Milestone 1
 
 Your first presentation should be **4 minutes**.  Present your work-in-progress.  Your presentation should include a few slides, plus videos, screenshots, or demos if possible.  Be sure to
 * Demonstrate working code (videos and screenshots are OK; it doesn’t have to be live).
@@ -292,17 +295,17 @@ See the Cesium [Presenter's Guide](https://github.com/AnalyticalGraphicsInc/cesi
 
 After class, push your presentation to your GitHub repo.
 
-## **Monday 11/27** - Milestone 2
+## **Monday 11/26** - Milestone 2
 
 A 5 minute presentation on your progress over the past week.  Demonstrate how you reached or exceeded the goals for this milestone.  If you didn't reach them, explain why.  Remind us of your upcoming milestones, and adjust them if needed.
 
 After class, push your presentation to your GitHub repo.
 
-## **Monday 12/04** - Milestone 3
+## **Monday 12/03** - Milestone 3
 
 Same format as Milestone 2.
 
-## **Monday 12/11** - Final Presentation
+## **Friday 12/7** - Final Presentation
 
 4-minute final presentation.
 
@@ -311,6 +314,8 @@ This should be a polished presentation with a 1-2 slide **overview** of the tech
 It is OK to present this as a few slides with a demo/video for the results section, or to prepare a video for the entire presentation and then talk to the video as your presentation.
 
 Please practice for timing; do not exceed five minutes.
+
+## **Monday 12/10** - Final Project due
 
 By 5pm:
 * Push the following to GitHub
@@ -335,4 +340,4 @@ The final project is worth 50% of your final grade.  The breakdown is:
 * Milestone 1: 25%
 * Milestone 2: 25%
 * Milestone 3: 25%
-* Final Presentation: 25%
+* Final Presentation and code: 25%

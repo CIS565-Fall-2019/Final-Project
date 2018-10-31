@@ -167,19 +167,19 @@ Write a _Vulkan for OpenGL developers_ tutorial series.
 ## VR
 
 1. Performance analysis of porting an engine to VR
-  * Naive stereo rendering vs. multi-view
+    * Naive stereo rendering vs. multi-view
 2. Implement barrel distortion and chromatic aberration filters with optimizations
-  * In practice, use filters from VR vendors to avoid making users sick
+    * In practice, use filters from VR vendors to avoid making users sick
 3. More precise object culling with a volume derived from the hidden area mesh
-  * Is this practical and useful?
+    * Is this practical and useful?
 4. In each eye, most of the same fragments will pass the depth test, can this coherence be used to optimize?
-  * Evaluate the checkerboard stencil in radial density masking as a general optimization
+    * Evaluate the checkerboard stencil in radial density masking as a general optimization
 5. Does it have better visual quality than rendering a scene at half-resolution and upsampling with only a nominal cost?
-  * Expand radial density masking / fixed foveated rendering to apply geometric/material LOD to objects in the periphery
+    * Expand radial density masking / fixed foveated rendering to apply geometric/material LOD to objects in the periphery
 6. Implement a simulation for avoiding judder
 7. Compare async timewarp, spacewarp, and late orientation warping, and heuristics for selecting between them
 8. Improve spacewarp with a sparse voxel octree
-  * Not sure if this will work, but perhaps could improve occlusion artifacts at a reasonable performance and memory cost
+    * Not sure if this will work, but perhaps could improve occlusion artifacts at a reasonable performance and memory cost
 
 ## CUDA / GPU Computing
 
@@ -289,11 +289,11 @@ Think of your pitch as if you are trying to get a startup funded, convincing you
 **Before the meeting**:
 * Email your one page pitch and any supplemental material to Patrick, Shehzan, and the TAs by end of Sunday 11/11. Sooner is better. To really hit a home run, consider prototyping something before the meeting.
 
-**You are free to start working on your project before the pitch.** If you have followed the guidelines, it is more than likely that your project will be approved. We may ask you to tweak it, but there is a low probability that you will have to change it completely.
+**You are free to start working on your project before the pitch.** As long as you have followed the guidelines, it is more than likely that your project will be approved. We may ask you to tweak it, move the milestones etc.
 
 **After the meeting**:
 * Push your pitch to a new GitHub repo for your project
-* Email the repo link to cis-565-fall-2017@googlegroups.com (if the project is open source)
+* Add the names of the team members, a project name (if any) and the link to the Github repository (if open source) to the [Google Group Final Projects Post](https://groups.google.com/d/topic/cis-565-fall-2018/fcVT0ntuWOE/discussion).
 
 ## **Monday 11/19** - Milestone 1
 
@@ -353,3 +353,7 @@ The final project is worth 50% of your final grade. The breakdown is:
 * Milestone 2: 25%
 * Milestone 3: 25%
 * Final Presentation and code: 25%
+
+# Social Media
+
+Feel free to share your successes, bloopers etc on social media. Patrick and I will retweet/share them. It'll be great to get the buzz going about your project. You may even get industry experts to chime in.

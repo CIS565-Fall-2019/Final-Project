@@ -27,6 +27,21 @@ Expect this to be 2-3x more work than the hardest project this semester. The bes
 
 # Project Ideas
 
+## DirectX Raytracing
+
+![](https://pbs.twimg.com/media/DjJE_7LUYAAMgBB.jpg)
+
+* Real-time rendering pipeline + add ons
+
+Resources:
+* http://www.realtimerendering.com/erich/Ray%20Tracing%20at%20Last.pptx
+* https://github.com/NVIDIAGameWorks/DxrTutorials
+* https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Samples/Desktop/D3D12Raytracing
+* https://developer.nvidia.com/rtx/raytracing/dxr/DX12-Raytracing-tutorial-Part-1
+* https://developer.nvidia.com/rtx/raytracing/dxr/DX12-Raytracing-tutorial-Part-2
+* http://intro-to-dxr.cwyman.org
+* http://cwyman.org/code/dxrTutors/dxr_tutors.md.html
+
 ## WebGPU - Next-generation 3D Graphics on the Web
 
 Background
@@ -280,7 +295,7 @@ Browse these for ideas galore!
 
 ## **Monday 11/12** - Project Pitch
 
-Sign up for a time slot ASAP.
+[Sign up for a time slot ASAP](https://docs.google.com/spreadsheets/d/1WaGKzzJn-I6aQOwbM1uIvRy6phFNUP7PXlNeafYADmI/edit#gid=0). 
 
 Your project pitch is a 15-minute meeting with Patrick, Shehzan, and the TAs, and a write-up no longer than **one page** that includes an overview of your approach with **specific goals** and **weekly milestones** for 11/19, 11/26, 12/03, and 12/10. First, focus on why there is a need for your project. Then describe what exactly you are going to do. In addition to your write-up, provide supplemental **figures**, **images**, or **videos**.
 

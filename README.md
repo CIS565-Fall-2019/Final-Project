@@ -205,9 +205,14 @@ Write a _Vulkan for OpenGL developers_ tutorial series.
 * http://graphics.stanford.edu/courses/cs468-17-spring/
 * https://github.com/timzhang642/3D-Machine-Learning
 
-### Autonomous Cars
+### Autonomous Cars and Simulation
 
 GPU accelerate parts of [autonomous cars](http://www.nvidia.com/object/drive-automotive-technology.html).
+
+* https://github.com/carla-simulator/carla
+* https://www.vectorzero.io/
+* https://7dlabs.com/synscapes-overview
+* https://www.vectorzero.io/products
 
 ### Embedded Systems
 

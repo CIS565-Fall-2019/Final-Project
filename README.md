@@ -308,6 +308,7 @@ Think of your pitch as if you are trying to get a startup funded, convincing you
 
 **Before the meeting**:
 * Email your one page pitch and any supplemental material to Patrick, Shehzan, and the TAs by end of Sunday 11/11. Sooner is better. To really hit a home run, consider prototyping something before the meeting.
+  * Use the subject as `[CIS 565 2018 Final Project] Name1, Name2, Name3`. Include a project/team name, if chosen.
 
 **You are free to start working on your project before the pitch.** As long as you have followed the guidelines, it is more than likely that your project will be approved. We may ask you to tweak it, move the milestones etc.
 

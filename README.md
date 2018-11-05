@@ -378,3 +378,55 @@ The final project is worth 50% of your final grade. The breakdown is:
 # Social Media
 
 Feel free to share your successes, bloopers etc on social media. Patrick and I will retweet/share them. It'll be great to get the buzz going about your project. You may even get industry experts to chime in.
+
+# FAQ
+
+#### I want to do a project on a topic that has been done in the past. Is that allowed?
+
+The main goal of final projects is to move the course forward and current with the industry. If you are trying to do something similar to year(s) old project, then you are starting behind.
+
+These kind of projects, such as building on top of Pathtracer or doing new procedural generation, will be allowed if the additions are going to be novel and haven't been previously done. So the bar is set high.
+
+Whereas, for projects like Vulkan, VR, DirectX Raytracing, the technology is recent and not much work has been done. So you will be the pioneers of these, so the barrier to entry is lower. Working on these will also open the possibility of the project becoming a regular project in the future.
+
+Simulations, physically based animations will be allowed if you are implementing a novel technique that is vastly different from the seminal work in that field.
+
+#### I really want to work on a topic/technology, but I have limited or no experience.
+
+Be brave. There are a ton of online courses out there. Additionally, we'll try to connect you to any industry experts we know of.
+
+#### What if I'm not doing a graphics or visual project? What should I do for final demos?
+
+It is completely ok to no do a graphics project. Not all useful software on GPU is grpahics related.
+
+You can do a lot of things for final projects, including, but not limited to, some great graphs, comparisions with industry software etc.
+
+#### I'm from CIS (or non-graphics). Can you suggest projects for me to work on?
+
+The core piece of advice would be to take something really amazing you have done, and then port it to the GPU.
+
+There are a ton of other topics you can think of as well. Machine Learning, deep learning, autonomous driving to name a few. Additionally, embedded systems with GPU such as Tegra or ARM GPUs, Apple Metal etc are also welcome.
+
+It is all about doing projects using the GPU that are relevant to the industry and your field of interest.
+
+#### I want to work on a project that requires data. I don't have any.
+
+For projects like machine learning etc, a source data is always required. There are usually a lot of open datasets available, most of which are a simple google search away.
+
+Also try talking to other departments, professors or students who might have such data. There is always a good chance by approaching the right people.
+
+If you still cannot find it, we can help connect you to some industry experts who might have such data.
+
+#### I've been working on a long term project (research/PhD/etc). Can I do my final project on that?
+  
+Yes, as long as:
+* There is no double-dipping (getting grades in 2 different courses for the same work).
+* The goals are clearly layed out.
+* The final project work is a GPU enhancement to other work.
+* Other conditions that may be taken up case-by-case.
+
+#### I have to miss one of the milestones because .....
+
+Missing milestones is **NOT** acceptable, except if you have matters such as interviews, recruitment etc, or obtain prior permission. In that case, do the following:
+* Ensure your team presents on the day of the milestone presentations.
+* Schedule a time with a TA (preferably Ottavio) and your team prior to the milestone presentations and discuss the progress made.

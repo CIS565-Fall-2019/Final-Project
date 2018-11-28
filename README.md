@@ -338,7 +338,7 @@ After class, push your presentation to your GitHub repo.
 
 Same format as Milestone 2.
 
-## **Friday 12/7** - Final Presentation
+## ~~Friday 12/7~~ **Friday 12/10** - Final Presentation + Project Due
 
 4-minute final presentation.
 
@@ -347,8 +347,6 @@ This should be a polished presentation with a 1-2 slide **overview** of the tech
 It is OK to present this as a few slides with a demo/video for the results section, or to prepare a video for the entire presentation and then talk to the video as your presentation.
 
 **Please practice for timing; do not exceed five minutes.**
-
-## **Monday 12/10** - Final Project due
 
 By **5pm**:
 * Push the following to GitHub

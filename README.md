@@ -154,6 +154,11 @@ https://www.babylonjs.com/
 
 [Open Issues](https://github.com/BabylonJS/Babylon.js/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 
+Suggested features from BabylonJS Team:
+* Cascaded Shadows
+* Area Lights
+* Real time environment filtering
+
 ## Vulkan
 
 ![](images/vulkan.png)

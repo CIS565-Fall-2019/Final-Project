@@ -1,10 +1,12 @@
 # Final Project
 
-[CIS 565](https://cis565-fall-2018.github.io/): GPU Programming and Architecture
+[CIS 565](https://cis565-fall-2019.github.io/): GPU Programming and Architecture
 
 University of Pennsylvania
 
-Fall 2018
+Fall 2019
+
+[Final Projects Overview Presentation](https://1drv.ms/p/s!AiLXbdZHgbemheBe-fMjHJVPuFL0lw)
 
 The final project gives you an opportunity to embark on a large GPU programming endeavor of your choice. You are free to select an area in graphics, GPU computing, or both.
 
@@ -15,7 +17,7 @@ You can
 * add a novel extension to existing work, or
 * implement something completely original.
 
-Expect this to be 2-3x more work than the hardest project this semester. The best projects will require a time commitment of at least 100 hours per student. It will be worth it.
+Expect this to be 2-3x more work than the hardest project this semester. The best projects will require a time commitment of at least 100-125 hours per student. It will be worth it.
 
 # Guidelines
 
@@ -26,6 +28,16 @@ Expect this to be 2-3x more work than the hardest project this semester. The bes
 * You are allowed to use existing code and libraries. These should be prominently credited and your code should be easily identifiable. Be incredibly clear about what is your work and what is not.
 
 # Project Ideas
+
+## Denoising
+
+![](./images/denoising.jpg)
+
+* Add custom de-noising algorithms to Path Tracer and/or DXR
+* Used everywhere real-time ray/path-tracing is used
+* Buzz in all of rendering community
+* Can put you in touch with Alain Galvan (Nov 20 guest speaker)
+  * Blog post: https://alain.xyz/blog/raytracing-denoising
 
 ## DirectX Raytracing
 
@@ -42,18 +54,41 @@ Resources:
 * http://intro-to-dxr.cwyman.org
 * http://cwyman.org/code/dxrTutors/dxr_tutors.md.html
 
+## Machine Learning / Deep Learning
+
+The field is open and vast. You can suggest everything from improving computer vision to page rank and so on. Pretty much everything is on the table for this.
+
+## Mesh Segmentation and Classification
+
+* Huge amounts of open Photogrammetry and Lidar models available today
+* Big effort going on in the US Army - Look up “One World Terrain”
+* Watch: USC ICT Videos
+  * https://www.youtube.com/watch?v=1IqkogPxWPY
+  * https://www.youtube.com/watch?v=w5LsvKPmNJI
+* https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10207/1/Visualizing-UAS-collected-imagery-using-augmented-reality/10.1117/12.2262864.short?SSO=1
+* https://arxiv.org/ftp/arxiv/papers/1711/1711.10693.pdf
+* http://trajectorymagazine.com/rapid-terrain-generation/
+* https://scholarspace.manoa.hawaii.edu/bitstream/10125/59634/1/0194.pdf
+* http://ict.usc.edu/pubs/Producing%20Usable%20Simulation%20Terrain%20Data%20from%20UAS-Collected%20Imagery.pdf
+
+Note: Shehzan can help with source data.
+
 ## WebGPU - Next-generation 3D Graphics on the Web
 
 Background
+* [Graphics Topics in Chrome](https://docs.google.com/presentation/d/e/2PACX-1vQEdp8Ei2apjB30yQ8zQL8edf-B5c7Wf07RPlmvGySEieE_3loxVTkNgliuqqpuvtw3NLuTM3mYIhBY/pub)
 * [Designing a Next-Gen Graphics API for the Web](https://docs.google.com/presentation/d/1Z_3-3V6FRsF8OJNeH7yc6UKtgXy90Ggff07V9Z6uo6U/edit#slide=id.g644e7765b4b81e56_540) by Kai Ninomiya
-* https://github.com/google/nxt-standalone
+* https://github.com/austinEng/webgpu-samples
+* https://doc.babylonjs.com/extensions/webgpu
+* https://webkit.org/demos/webgpu/
+* https://github.com/gpuweb/gpuweb/wiki/Implementation-Status
 
 Ideas
-* glTF 2.0 PBR renderer for NXT
-* Vulkan backend for NXT
-* CUDA rasterizer backend for NXT
-* Tensorflow operators using NXT compute shaders
-* Anything to help with NXT design
+* glTF 2.0 PBR renderer for WebGPU
+* Vulkan backend for WebGPU
+* CUDA rasterizer backend for WebGPU
+* Tensorflow operators using WebGPU compute shaders
+* Anything to help with WebGPU design
 
 ## WebAssembly
 
@@ -70,37 +105,15 @@ Also talk to Austin Eng, who used WebAssembly for his Senior Design, and now is 
 
 https://www.khronos.org/gltf
 
-Disclosure: Patrick is the chair of the Khronos 3D Formats Working Group. :smirk:
-
 ![](images/gltf.png)
 
-### Unity importer/exporter
+glTF Working Group is working to introduce a fully physically based material model. Would be amazing to integrate this with other engines as a prototype. I can introduce you to the people at the forefront of the specification and the Working Group.
 
-https://github.com/KhronosGroup/UnityGLTF
+### 3D Tiles Runtime for Unity
 
-Collaborate with Microsoft and Mozilla on the Unity glTF importer and exporter
+Collaborate with Cesium on creating a 3D Tiles runtime for Unity. Leverage the glTF importer to bring in massive mesh and point cloud datasets into Unity.
 
-### Autodesk Maya or Max importer or exporter
-
-Develop an open-source Maya or Max plugin for glTF import or export
-
-## WebGL
-
-![](images/webgl.png)
-
-### WebGL 2
-
-Extend 
-* [WebGL 2 Samples Pack](https://github.com/WebGLSamples/WebGL2Samples) or
-* [WebGL 2 Examples](https://github.com/tsherif/webgl2examples)
-
-### WebGL vs. OpenGL ES Mobile Power Usage
-
-On mobile, how does the power usage of JavaScript/WebGL compare to C++/OpenGL ES 2 (or Java/ES or Objective C/ES)? For example, if the same app is developed in WebGL and OpenGL ES, which one drains the battery first - and why? What type of benchmarks need to be developed, e.g., CPU bound, GPU compute bound, GPU memory bound, etc.?
-
-### WebGL for Graphics Education
-
-Create a tutorial using WebGL that teaches either basic _GPU architecture_ (parallelism, branches, multithreading, SIMD, etc.) or _Tile-Based Architectures_ like those used in mobile GPUs. For inspiration, see [Making WebGL Dance](http://acko.net/files/fullfrontal/fullfrontal/webglmath/online.html) by Steven Wittens.
+Disclosure: Shehzan works for Cesium.
 
 ## gpu.js
 
@@ -116,7 +129,7 @@ https://cesiumjs.org/
 
 3D Mapping WebGL Engine
 
-Disclosure: I started this project. :smirk:
+Disclosure: Shehzan works for Cesium.
 
 ![](images/cesium.jpg)
 
@@ -126,16 +139,12 @@ Expand on https://cesium.com/blog/2017/10/23/integrating-cesium-with-threejs/ to
 
 ### Ocean rendering
 
-Improve the quality of the global-scale ocean/water rendering in Cesium. Add any required WebGL 2 features to Cesium
+Improve the quality of the global-scale ocean/water rendering in Cesium. Add any required WebGL 2 features to Cesium.
 
 Resources
 * https://www.fxguide.com/featured/assassins-creed-iii-the-tech-behind-or-beneath-the-action/
 * http://the-witness.net/news/2012/08/regarding-water/
 * http://vterrain.org/Water/
-
-### Snow rendering
-
-Expand on the [particle system](https://cesiumjs.org/tutorials/Particle-Systems-Tutorial/) and new [terrain materials](https://github.com/AnalyticalGraphicsInc/cesium/pull/5919) to add snow rendering to Cesium.
 
 ## BabylonJS
 
@@ -144,12 +153,6 @@ https://www.babylonjs.com/
 ![](images/babylonjs.svg)
 
 [Open Issues](https://github.com/BabylonJS/Babylon.js/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
-
-* More postprocesses:
- * Better bloom
- * Cartoon
- * Paper
- * You name it :)
 
 ## Vulkan
 
@@ -222,12 +225,6 @@ See [success stories](https://developer.nvidia.com/embedded/learn/success-storie
 
 Ps. You may need to procure hardware, but we can help with references.
 
-## Other
-
-### Google Tango
-
-Anything that runs in real-time using the GPU and the [Tango API](https://developers.google.com/tango/).
-
 ## Anti-Ideas
 
 Please do not propose yet-another-CUDA-fluid/smoke/cloth simulation unless it has a unique spin such as using
@@ -241,6 +238,7 @@ Likewise, please do not propose extend-my-CUDA-path-tracer-with-these-n-effects 
 ## Previous Semesters
 
 For inspiration, browse the CIS 565 final projects from previous semesters:
+* [Fall 2018](https://cis565-fall-2018.github.io/studentwork.html)
 * [Fall 2017](https://cis565-fall-2017.github.io/studentwork.html)
 * [Fall 2016](https://cis565-fall-2016.github.io/studentwork.html)
 * [Fall 2015](http://cis565-fall-2015.github.io/studentwork.html)
@@ -253,6 +251,11 @@ For inspiration, browse the CIS 565 final projects from previous semesters:
 A guideline is that your project should be better than last semester's projects; that is how we move the field forward.
 
 ### Selected Projects
+* **Fall 2018**
+  * [RTX Explore](https://github.com/rtx-on/rtx-explore)
+  * [Vulkan Hybrid PBR Renderer](https://github.com/460xlin/Vulkan_Hybrid_PBR/)
+  * [GPU Rasterized And Ray Traced Real Time Rendering Using WebGL](https://github.com/WanruZhao/CIS565-Final-Project)
+  * [Cloth Simulation in Flamenco Game Engine](https://github.com/vasumahesh1/Flamenco)
 * **Fall 2017**
   * [Pollux: Metal Pathtracer](https://github.com/WilliamKHo/Pollux-Renderer) by Youssef Victor and Will Ho
   * [Organic Mesh Growth with SDFs](https://github.com/mmerchante/organic-mesh-growth) by Mariano Merchante and Mohamad Moneimne
@@ -296,62 +299,62 @@ Browse these for ideas galore!
 * [Ke-Sen Huang's conference pages](http://kesen.realtimerendering.com/) - papers from SIGGRAPH, Eurographics, I3D, and elsewhere
 * [Real-Time Rendering Portal](http://www.realtimerendering.com/portal.html) and [WebGL Resources](http://www.realtimerendering.com/webgl.html) - links to an amazing amount of content
 
+Also look at the course website for more resources.
+
 # Timeline
 
-## **Monday 11/12** - Project Pitch
+## **Monday 11/6** - Project Pitch
 
-[Sign up for a time slot ASAP](https://docs.google.com/spreadsheets/d/1WaGKzzJn-I6aQOwbM1uIvRy6phFNUP7PXlNeafYADmI/edit#gid=0). 
+[Sign up for a time slot ASAP](https://1drv.ms/x/s!AiLXbdZHgbemheBhawGKeXiQ_oXujA?e=4Voyw7). Only team member names are needed to sign up.
 
-Your project pitch is a 15-minute meeting with Patrick, Shehzan, and the TAs, and a write-up no longer than **one page** that includes an overview of your approach with **specific goals** and **weekly milestones** for 11/19, 11/26, 12/03, and 12/10. First, focus on why there is a need for your project. Then describe what exactly you are going to do. In addition to your write-up, provide supplemental **figures**, **images**, or **videos**.
+Your project pitch is a 15-minute meeting with Shehzan, and the TAs, and a write-up no longer than **one page** that includes an overview of your approach with **specific goals** and **weekly milestones** for 11/18, 11/25, 12/02, and 12/9. First, focus on why there is a need for your project. Then describe what exactly you are going to do. In addition to your write-up, provide supplemental **figures**, **images**, or **videos**.
 
 Think of your pitch as if you are trying to get a startup funded, convincing your company to start a new project, or responding to a grant. For an example, see [Forward+ Renderer using OpenGL/Compute Shaders](https://github.com/bcrusco/Forward-Plus-Renderer/blob/master/Final%20Project%20Pitch.pdf) by Bradley Crusco and Megan Moore _(this example pitch does not include weekly milestones, which is new this semester)_.
 
-**Before the meeting**:
-* Email your one page pitch and any supplemental material to Patrick, Shehzan, and the TAs by end of Sunday 11/11. Sooner is better. To really hit a home run, consider prototyping something before the meeting.
-  * Use the subject as `[CIS 565 2018 Final Project] Name1, Name2, Name3`. Include a project/team name, if chosen.
+**On or before 11/4**:
+* Email your one page pitch and any supplemental material to Shehzan, and the TAs by end of Monday 11/04 using Piazza. Sooner is better. To really hit a home run, consider prototyping something before the meeting.
+  * Use the subject as `[CIS 565 2019 Final Project] Name1, Name2, Name3`. Include a project/team name, if chosen.
 
 **You are free to start working on your project before the pitch.** As long as you have followed the guidelines, it is more than likely that your project will be approved. We may ask you to tweak it, move the milestones etc.
 
 **After the meeting**:
-* Push your pitch to a new GitHub repo for your project
-* Add the names of the team members, a project name (if any) and the link to the Github repository (if open source) to the [Google Group Final Projects Post](https://groups.google.com/d/topic/cis-565-fall-2018/fcVT0ntuWOE/discussion).
+* Push your pitch to a new GitHub repo for your project.
+* Add the names of the team members, a project name (if any) and the link to the Github repository (if open source) to the [List of Final Projects](https://piazza.com/class/jz8re68445r142?cid=296).
 
-## **Monday 11/19** - Milestone 1
+**On or before 11/10**:
+* Choose your shadow team.
+* Shadow teams must be used for practicing presentations and good for getting presentation content/timing into shape. Shadow teams may be used for bouncing technical ideas.
+* Plan to meet once weekly for 30-60 minutes
+* Ideally, your shadow team should be working on a similar idea for their final project
+
+## **Monday 11/18** - Milestone 1
 
 Your first presentation should be **4 minutes**. Present your work-in-progress. Your presentation should include a few slides, plus videos, screenshots, or demos if possible. Be sure to
 * Demonstrate working code (videos and screenshots are OK; it doesn’t have to be live).
-* Provide a roadmap with future weekly milestones up to and including the final presentation on **Friday, December 7**.
+* Provide a roadmap with future weekly milestones up to and including the final presentation on **Monday, December 9**.
 
 See the Cesium [Presenter's Guide](https://github.com/AnalyticalGraphicsInc/cesium/tree/master/Documentation/Contributors/PresentersGuide#presenters-guide) for tips on presenting. Be sure to present as a team; for a great example, see http://www.youtube.com/watch?v=OTCuYzAw31Y
 
 After class, push your presentation to your GitHub repo.
 
-## **Monday 11/26 & Wednesday 11/28** - Milestone 2
+## **Monday 11/25** - Milestone 2
 
 A 5 minute presentation on your progress over the past week. Demonstrate how you reached or exceeded the goals for this milestone. If you didn't reach them, explain why. Remind us of your upcoming milestones, and adjust them if needed.
 
 After class, push your presentation to your GitHub repo.
 
-> Note: Because we have guest speakers on both 11/26 and 11/28, we will be splitting the the presentations into 2 groups, half on 11/26 and half on 11/28.
-
-## **Monday 12/03** - Milestone 3
+## **Monday 12/02** - Milestone 3
 
 Same format as Milestone 2.
 
-## ~~Friday 12/7~~ **Friday 12/10** - Final Presentation + Project Due
+## **Sunday 12/8 11:59pm** - Final Project Due
 
-4-minute final presentation.
+Follow the same guidelines as all the regular class projects. At this point do not include your milestone information in the readme. You may use other readmes or PDFs for milestone progress.
 
-This should be a polished presentation with a 1-2 slide **overview** of the technical approach at a high-level of abstraction, followed by a **demo/video of the results** in different representative scenarios, followed by a careful **performance analysis**, and finally **shortcomings** of the approach.
+Make sure to include your project pitch, milestone PDFs, images, videos etc in a directory.
 
-It is OK to present this as a few slides with a demo/video for the results section, or to prepare a video for the entire presentation and then talk to the video as your presentation.
-
-**Please practice for timing; do not exceed five minutes.**
-
-By **5pm**:
-* Push the following to GitHub
-  * Final presentation slides/video
-  * Final code - should be clean, documented, and tested
+Be sure to include:
+* Final code - should be clean, documented, and tested
 * A detailed README.md including:
   * Name of your project
   * Your names and links to your website/LinkedIn/twitter/whatever
@@ -362,16 +365,29 @@ By **5pm**:
   * Detailed performance analysis
   * Install and build instructions
 
+## **Monday 12/9 5:00pm** - Final Project Presentations
+
+Note: Presentations should be submitted by 4pm on Monday 12/9.
+
+4-minute final presentation.
+
+This should be a polished presentation with a 1-2 slide **overview** of the technical approach at a high-level of abstraction, followed by a **demo/video of the results** in different representative scenarios, followed by a careful **performance analysis**, and finally **shortcomings** of the approach.
+
+It is OK to present this as a few slides with a demo/video for the results section, or to prepare a video for the entire presentation and then talk to the video as your presentation.
+
+**Please practice for timing; do not exceed five minutes.**
+
 As always, see [How to make an attractive GitHub repo](https://github.com/pjcozzi/Articles/blob/master/CIS565/GitHubRepo/README.md#how-to-make-an-attractive-github-repo) for tips on your README.md.
 
 # Grading
 
 The final project is worth 50% of your final grade. The breakdown is:
 
-* Milestone 1: 25%
-* Milestone 2: 25%
-* Milestone 3: 25%
-* Final Presentation and code: 25%
+* Milestone 1 & Progress: 20%
+* Milestone 2 & Progress: 20%
+* Milestone 3 & Progress: 20%
+* Final submission: 20%
+* All milestones presentations and final presentation: 20%
 
 # Social Media
 
@@ -416,7 +432,7 @@ Also try talking to other departments, professors or students who might have suc
 If you still cannot find it, we can help connect you to some industry experts who might have such data.
 
 #### I've been working on a long term project (research/PhD/etc). Can I do my final project on that?
-  
+
 Yes, as long as:
 * There is no double-dipping (getting grades in 2 different courses for the same work).
 * The goals are clearly layed out.

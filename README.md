@@ -316,7 +316,7 @@ Your project pitch is a 15-minute meeting with Shehzan, and the TAs, and a write
 
 Think of your pitch as if you are trying to get a startup funded, convincing your company to start a new project, or responding to a grant. For an example, see [Forward+ Renderer using OpenGL/Compute Shaders](https://github.com/bcrusco/Forward-Plus-Renderer/blob/master/Final%20Project%20Pitch.pdf) by Bradley Crusco and Megan Moore _(this example pitch does not include weekly milestones, which is new this semester)_.
 
-**On or before 11/4**:
+**Before 11/4 5:00pm**:
 * Email your one page pitch and any supplemental material to Shehzan, and the TAs by end of Monday 11/04 using Piazza. Sooner is better. To really hit a home run, consider prototyping something before the meeting.
   * Use the subject as `[CIS 565 2019 Final Project] Name1, Name2, Name3`. Include a project/team name, if chosen.
 

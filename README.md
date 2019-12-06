@@ -370,11 +370,11 @@ Be sure to include:
   * Detailed performance analysis
   * Install and build instructions
 
-## **Monday 12/9 5:00pm** - Final Project Presentations
+## **Monday 12/9 6:00pm** - Final Project Presentations
 
-Note: Presentations should be submitted by 4pm on Monday 12/9.
+Note: Presentations should be submitted by 5pm on Monday 12/9.
 
-4-minute final presentation.
+5-minute final presentation.
 
 This should be a polished presentation with a 1-2 slide **overview** of the technical approach at a high-level of abstraction, followed by a **demo/video of the results** in different representative scenarios, followed by a careful **performance analysis**, and finally **shortcomings** of the approach.
 
